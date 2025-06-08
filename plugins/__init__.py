@@ -2,8 +2,13 @@
 # Copyright (C) 2021-2025 TeamUltroid
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
+# Please read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+
+# Forked and customized by: TheTeamVivek
+# Owner ID: 8056154987
+# Group: https://t.me/TheTeamVk
+# Channel: https://t.me/TheTeamVivek
 
 import asyncio
 import os
@@ -33,7 +38,7 @@ Redis = udB.get_key
 con = TgConverter
 quotly = Quotly()
 OWNER_NAME = ultroid_bot.full_name
-OWNER_ID = ultroid_bot.uid
+OWNER_ID = 8056154987  # 👈 Your Telegram user ID
 
 ultroid_bot: UltroidClient
 asst: UltroidClient
@@ -62,10 +67,7 @@ N = 0
 cmd = ultroid_cmd
 STUFF = {}
 
-# Chats, which needs to be ignore for some cases
-# Considerably, there can be many
-# Feel Free to Add Any other...
-
+# Chats, which need to be ignored for some cases
 NOSPAM_CHAT = [
     -1001361294038,  # UltroidSupportChat
     -1001387666944,  # PyrogramChat
@@ -73,6 +75,7 @@ NOSPAM_CHAT = [
     -1001050982793,  # Python
     -1001256902287,  # DurovsChat
     -1001473548283,  # SharingUserbot
+    -1002146211959,  # TheTeamVivek Support Group
 ]
 
 KANGING_STR = [
@@ -87,7 +90,6 @@ KANGING_STR = [
     "Imprisoning this sticker...",
     "Mr.Steal-Your-Sticker is stealing this sticker... ",
 ]
-
 
 ATRA_COL = [
     "DarkCyan",
